@@ -1,21 +1,25 @@
 package com.meski.accademy.nameInverter;
 
+import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class NameInverterTest {
+public class NameInverterTest extends NameInverter {
+    private NameInverter nameInverter;
+
+    @Before
+    public void setup() {
+        nameInverter = new NameInverter();
+    }
+
     @Test
     public void givenNull_returnEmptyString() throws Exception {
        assertInverted(null, "");
     }
 
     private void assertInverted(String originalName, String invertedName) {
-        assertEquals(invertedName, invertName(originalName));
+        assertEquals(invertedName, nameInverter.invertName(originalName));
     }
 
     @Test
@@ -52,35 +56,12 @@ public class NameInverterTest {
     @Test
     public void postNominals_stayAtEnd() throws Exception {
         assertInverted("First Last Sr.", "Last, First Sr.");
+        assertInverted("First Last BS. PhD.", "Last, First BS. PhD.");
     }
 
-    private String invertName(String name) {
-        if (name == null || name.length() <= 0) {
-            return "";
-        } else {
-            List<String> names = splitNames(name);
-            if (names.size() > 1 && isHonorific(names.get(0))) {
-                names.remove(0);
-            }
-            if (names.size() == 1) {
-                return names.get(0);
-            } else {
-                String postNominal = "";
-                if (names.size() > 2) {
-                    postNominal = names.get(2);
-                }
-                return String.format("%s, %s %s", names.get(1), names.get(0), postNominal).trim();
-            }
-        }
+    @Test
+    public void integration() throws Exception {
+        assertInverted("   Mehmed   Maljoki    BS.    PhD.", "Maljoki, Mehmed BS. PhD.");
     }
-
-    private boolean isHonorific(String word) {
-        return word.matches("Mr\\.|Mrs\\.");
-    }
-
-    private ArrayList splitNames(String name) {
-        return new ArrayList(Arrays.asList(name.trim().split("\\s+")));
-    }
-
 
 }
