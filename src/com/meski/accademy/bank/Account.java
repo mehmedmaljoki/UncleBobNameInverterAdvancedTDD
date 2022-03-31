@@ -1,4 +1,5 @@
-package com.meski.accademy;
+package com.meski.accademy.bank;
+
 
 public class Account {
     private int balance = 0;

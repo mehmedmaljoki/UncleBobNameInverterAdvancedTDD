@@ -1,4 +1,4 @@
-package com.meski.accademy;
+package com.meski.accademy.bowlingGame;
 
 public class Game {
     public void roll(int pins) {

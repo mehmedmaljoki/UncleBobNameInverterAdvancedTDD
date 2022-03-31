@@ -1,4 +1,4 @@
-package com.meski.accademy;
+package com.meski.accademy.bank;
 
 import org.junit.Before;
 import org.junit.Test;

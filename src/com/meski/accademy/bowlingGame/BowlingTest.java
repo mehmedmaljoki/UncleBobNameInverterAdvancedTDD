@@ -1,4 +1,4 @@
-package com.meski.accademy;
+package com.meski.accademy.bowlingGame;
 
 import org.junit.Before;
 import org.junit.Test;

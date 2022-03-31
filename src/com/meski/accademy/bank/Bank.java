@@ -1,4 +1,4 @@
-package com.meski.accademy;
+package com.meski.accademy.bank;
 
 public class Bank {
     public static double currentInterestRate;
