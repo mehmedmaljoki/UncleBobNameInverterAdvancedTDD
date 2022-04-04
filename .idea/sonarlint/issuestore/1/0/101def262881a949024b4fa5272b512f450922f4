@@ -1,0 +1,40 @@
+
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(æ¥Ã/
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‡§´²
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ÿáö«şÿÿÿÿ
+Z	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Íûå,
+[	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(—¬ÈÔ
+[	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Œ”¯•
+[	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(®º»Ì
+`	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(‘„ˆûÿÿÿÿ
+[	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(ø²­Ÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¥Ã/
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(æ¥Ã/
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡§´²
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‡§´²
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿáö«şÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ÿáö«şÿÿÿÿ
+b	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íûå,
+
+java:S1130$"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Íûå,
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¬ÈÔ
+‚
+java:S1130)"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(—¬ÈÔ
+c	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”¯•
+‚
+java:S1130."lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Œ”¯•
+‚
+java:S11303"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(®º»Ì
+h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘„ˆûÿÿÿÿ
+‡
+java:S11309"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‘„ˆûÿÿÿÿ
+‚
+java:S1130?"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ø²­Ÿ
+F
+java:S5960"+Remove this assertion from production code.(ÑÒÏşıÿÿÿÿ
+g
+java:S1192*"LDefine a constant instead of duplicating this literal "Last, First" 4 times.(‘Âüıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß–ëıÿÿÿÿ
